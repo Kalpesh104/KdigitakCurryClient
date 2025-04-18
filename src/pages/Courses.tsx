@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Courses: React.FC = () => {
+const Courses= () => {
   const courses = [
     { id: 1, name: 'Introduction to Programming', level: 'Beginner', description: 'Learn the basics of programming.' },
     { id: 2, name: 'Data Structures', level: 'Intermediate', description: 'Study advanced data structures and algorithms.' },

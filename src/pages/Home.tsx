@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Home: React.FC = () => {
+
+const Home = () => {
   return (
     <div>
       <h1 className="text-2xl font-bold">Home Page</h1>

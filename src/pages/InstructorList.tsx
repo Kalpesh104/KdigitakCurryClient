@@ -6,7 +6,7 @@ import {
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { Instructor } from '../types/Instructor';
 
-const InstructorList: React.FC = () => {
+const InstructorList = () => {
   const [instructors] = useState<Instructor[]>([
     { id: 1, name: 'John Doe', phone: '(123) 456-7890', email: 'john.doe@example.com' },
     { id: 2, name: 'Jane Smith', phone: '(987) 654-3210', email: 'jane.smith@example.com' },
