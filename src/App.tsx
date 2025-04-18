@@ -1,14 +1,11 @@
-// App.tsx
-
 import React from 'react';
-import { Provider } from 'react-redux';
-import Login from './components/Login';
-import { store } from './redux/store';
+import { BrowserRouter } from 'react-router-dom';
+import AppRoutes from './routes/AppRoutes';
 
-const App: React.FC = () => (
-  <Provider store={store}>
-    <Login />
-  </Provider>
+const App = () => (
+  <BrowserRouter>
+    <AppRoutes />
+  </BrowserRouter>
 );
 
 export default App;
